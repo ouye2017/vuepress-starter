@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy" : "bash deploy.sh"
   },
   "dependencies": {
     "vue-template-compiler": "^2.7.8"

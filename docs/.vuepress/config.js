@@ -1,6 +1,8 @@
 module.exports = {
+  base: "/vuepress-starter/",
   title: 'Hello VuePress',
   description: 'Just playing around',
+
   themeConfig: {
     logo: '/assets/img/logo.jpg',
     sidebar: 'auto',
@@ -28,6 +30,7 @@ module.exports = {
         '',        /* / */
         'contact', /* /contact.html */
         'about'    /* /about.html */
+    
       ]
     }
     // 侧边栏方式
