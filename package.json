@@ -6,9 +6,12 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy" : "bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "vue-template-compiler": "^2.7.8"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.9.7"
   }
 }
